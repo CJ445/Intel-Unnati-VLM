@@ -11,6 +11,11 @@ cd Intel-Unnati-VLM
 mkdir -p data/coco
 cd data/coco
 ```
+### Prerequisite: Install aria2 for parallel downloads:
+```
+sudo apt install aria2  # Ubuntu/Debian
+```
+
 ### Download dataset
 
 ```
@@ -26,11 +31,6 @@ aria2c -x16 -s16 -i sampled_image_ids.txt \
        --allow-overwrite=true \
        --auto-file-renaming=false \
        --input-file=<(awk '{print "http://images.cocodataset.org/train2017/" sprintf("%012d", $1) ".jpg"}' sampled_image_ids.txt)
-```
-
-### Prerequisite: Install aria2 for parallel downloads:
-```
-sudo apt install aria2  # Ubuntu/Debian
 ```
 ### File Structure:
 ```
