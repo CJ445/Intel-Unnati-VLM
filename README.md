@@ -34,11 +34,21 @@ sudo apt install aria2  # Ubuntu/Debian
 ```
 ### File Structure:
 ```
-data/coco/
-├── images/               # 5,000 images
-├── annotations/
-│   ├── captions_train2017.json  # All captions
-└── sampled_image_ids.txt  # Your 5K image IDs
+├── data
+│   └── coco
+├── demo.py
+├── embedding_utils.py
+├── evaluate.py
+├── indexing.py
+├── project_scope.md
+├── __pycache__
+│   ├── embedding_utils.cpython-312.pyc
+│   ├── indexing.cpython-312.pyc
+│   └── search.cpython-312.pyc
+└── search.py
+
+3 directories, 9 files
+
 ```
 ### Verification:
 ```
