@@ -64,7 +64,7 @@ if __name__ == "__main__":
         choice = input("Enter your choice (1-3): ")
         
         if choice == "1":
-            query = input("Enter text query or image path: ")
+            query = input("Enter text query: ")
             if query.lower() == 'exit':
                 break
                 
