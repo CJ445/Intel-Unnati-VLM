@@ -26,6 +26,19 @@ python chroma_indexer.py
 ```bash
 python search.py "a man in a suit" --k 3
 ```
+```bash
+python search.py "a birthday party" --k 3
+```
+```bash
+python search.py "a slice of pizza" --k 3
+```
+```bash
+python search.py "a black cat outdoors" --k 3
+```
+```bash
+python search.py "a glass of wine" --k 3
+```
+
 ## File Structure
 
 ```bash
