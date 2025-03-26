@@ -36,6 +36,10 @@ sudo apt install aria2  # Ubuntu/Debian
 ```
 ├── data
 │   └── coco
+│       ├── annotations
+│       ├── annotations_trainval2017.zip
+│       ├── images
+│       └── sampled_image_ids.txt
 ├── demo.py
 ├── embedding_utils.py
 ├── evaluate.py
@@ -46,8 +50,6 @@ sudo apt install aria2  # Ubuntu/Debian
 │   ├── indexing.cpython-312.pyc
 │   └── search.cpython-312.pyc
 └── search.py
-
-3 directories, 9 files
 
 ```
 ### Verification:
