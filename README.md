@@ -26,3 +26,25 @@ python chroma_indexer.py
 ```bash
 python search.py "a man in a suit" --k 3
 ```
+## File Structure
+
+```bash
+├── chroma_db
+│   ├── 6a958e2e-303c-4002-a5ba-902ce658afe9
+│   └── chroma.sqlite3
+├── chroma_indexer.py
+├── data
+│   ├── annotations
+│   ├── annotations_trainval2017.zip
+│   └── train2017.zip
+├── download_data.py
+├── embed.py
+├── images
+│   └── COCO_train2017
+├── __pycache__
+│   └── embed.cpython-310.pyc
+├── requirements.txt
+├── search.py
+├── setup.md
+└── validate_system.py
+```
