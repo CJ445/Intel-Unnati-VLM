@@ -30,22 +30,20 @@ aria2c -x16 -s16 -i sampled_image_ids.txt \
 
 ### Prerequisite: Install aria2 for parallel downloads:
 ```
-    sudo apt install aria2  # Ubuntu/Debian
+sudo apt install aria2  # Ubuntu/Debian
 ```
 ### File Structure:
 ```
-    data/coco/
-    ├── images/               # 5,000 images
-    ├── annotations/
-    │   ├── captions_train2017.json  # All captions
-    └── sampled_image_ids.txt  # Your 5K image IDs
+data/coco/
+├── images/               # 5,000 images
+├── annotations/
+│   ├── captions_train2017.json  # All captions
+└── sampled_image_ids.txt  # Your 5K image IDs
 ```
 ### Verification:
 ```
-    # Check image count
-    ls images | wc -l  # Should output 5000
-
-    # Check captions
-    head -n 20 annotations/captions_train2017.json | grep "caption"
-
+# Check image count
+ls images | wc -l  # Should output 5000
+# Check captions
+head -n 20 annotations/captions_train2017.json | grep "caption"
 ```
