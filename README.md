@@ -38,6 +38,9 @@ python search.py "a black cat outdoors" --k 3
 ```bash
 python search.py "a glass of wine" --k 3
 ```
+```bash
+python search.py "a flower outisde" --k 3
+```
 
 ## File Structure
 
