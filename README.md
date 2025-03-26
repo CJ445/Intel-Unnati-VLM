@@ -24,5 +24,5 @@ python chroma_indexer.py
 ## Demo
 
 ```bash
-python search.py "a man in a suit" --k 5
+python search.py "a man in a suit" --k 3
 ```
