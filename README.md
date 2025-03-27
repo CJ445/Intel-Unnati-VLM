@@ -48,17 +48,17 @@ python search.py "images/COCO_train2017/000000000009.jpg" --k 3
 ## File Structure
 
 ```bash
-├── chroma_db
+├── chroma_db (This Directory will be created after running chroma_indexer.py)
 │   ├── 6a958e2e-303c-4002-a5ba-902ce658afe9
 │   └── chroma.sqlite3
 ├── chroma_indexer.py
-├── data
+├── data (This Directory will be created after running download_data.py)
 │   ├── annotations
 │   ├── annotations_trainval2017.zip
 │   └── train2017.zip
 ├── download_data.py
 ├── embed.py
-├── images
+├── images (This Directory will be created after running download_data.py)
 │   └── COCO_train2017
 ├── __pycache__
 │   └── embed.cpython-310.pyc
