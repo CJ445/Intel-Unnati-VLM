@@ -27,9 +27,31 @@ python chroma_indexer.py
 streamlit run app.py
 ```
 ### Text search (returns top matches)
-[Insert sample output here]
+--A man training the dog in a garden
+![image](https://github.com/user-attachments/assets/a6e121e8-14a7-497f-a637-23711deab98c)
+
+--A horse with the saddle on its back
+![image](https://github.com/user-attachments/assets/1ccb6481-e5c3-4f2a-89a4-1a5987f15aa9)
+
+--People using mobile on roadside
+![image](https://github.com/user-attachments/assets/59842bb4-1fc0-45e6-af59-3df7fd68af30)
+
+--Cyclists racing through a city street at night
+![image](https://github.com/user-attachments/assets/b907627f-6948-4b2c-bc88-6711de1c19ac)
+
+--A flowervase with blooming flowers
+![image](https://github.com/user-attachments/assets/b045345c-f4ea-44f1-8505-a34aa598579a)
+
+--A Lighthouse on a rocky coast
+![image](https://github.com/user-attachments/assets/5fe3001c-9b79-49e4-988e-fe5e55f0bd33)
+
+
+
 ### Image search (use sample image)
-[Insert sample output here]
+
+
+
+
 ## File Structure
 
 ```bash
