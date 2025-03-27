@@ -63,7 +63,5 @@ python search.py "images/COCO_train2017/000000000009.jpg" --k 3
 ├── __pycache__
 │   └── embed.cpython-310.pyc
 ├── requirements.txt
-├── search.py
-├── setup.md
-└── validate_system.py
+└── search.py
 ```
