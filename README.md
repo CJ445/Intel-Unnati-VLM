@@ -1,5 +1,11 @@
 # Visual Search using VLM
 
+## Setup Docker
+
+```bash
+docker run -p 8501:8501 leahtara/visual-search-vlm:dev
+```
+
 ## Setup locally
 
 ```bash
