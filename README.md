@@ -22,7 +22,7 @@ python chroma_indexer.py
 ```
 
 ## Demo
-
+### Text search (returns top matches)
 ```bash
 python search.py "a man in a suit" --k 3
 ```
@@ -37,6 +37,12 @@ python search.py "a black cat outdoors" --k 3
 ```
 ```bash
 python search.py "a glass of wine" --k 3
+```
+
+### Image search (use sample image)
+
+```bash
+Intell Unnati VLM site:github.com
 ```
 
 ## File Structure
