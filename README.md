@@ -42,7 +42,7 @@ python search.py "a glass of wine" --k 3
 ### Image search (use sample image)
 
 ```bash
-python search.py "images/COCO_train2017/000000000009.jpg" --k 3
+python search.py "images/COCO_train2017/000000570117.jpg" --k 3
 ```
 
 ## File Structure
