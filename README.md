@@ -22,29 +22,14 @@ python chroma_indexer.py
 ```
 
 ## Demo
+
+```bash
+streamlit run app.py
+```
 ### Text search (returns top matches)
-```bash
-python search.py "a man in a suit" --k 3
-```
-```bash
-python search.py "a birthday party" --k 3
-```
-```bash
-python search.py "a slice of pizza" --k 3
-```
-```bash
-python search.py "a black cat outdoors" --k 3
-```
-```bash
-python search.py "a glass of wine" --k 3
-```
-
+[Insert sample output here]
 ### Image search (use sample image)
-
-```bash
-python search.py "images/COCO_train2017/000000570117.jpg" --k 3
-```
-
+[Insert sample output here]
 ## File Structure
 
 ```bash
