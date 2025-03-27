@@ -27,8 +27,8 @@ python chroma_indexer.py
 streamlit run app.py
 ```
 ### Text search (returns top matches)
---A man training the dog in a garden
-![image](https://github.com/user-attachments/assets/a6e121e8-14a7-497f-a637-23711deab98c)
+
+A man training the dog in a garden --![image](https://github.com/user-attachments/assets/a6e121e8-14a7-497f-a637-23711deab98c)
 
 --A horse with the saddle on its back
 ![image](https://github.com/user-attachments/assets/1ccb6481-e5c3-4f2a-89a4-1a5987f15aa9)
