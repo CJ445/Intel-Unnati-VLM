@@ -1,6 +1,6 @@
 # Visual Search using VLM
 
-## Setup
+## Setup locally
 
 ```bash
 git clone https://github.com/CJ445/Intel-Unnati-VLM
