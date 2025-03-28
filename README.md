@@ -60,7 +60,6 @@ docker run -p 8501:8501 visual-search-image
 │   ├── annotations_trainval2017.zip
 │   └── train2017.zip
 ├── download_data.py
-├── extract_data.py
 ├── embed.py
 ├── images (This Directory will be created after running download_data.py)
 │   └── COCO_train2017
