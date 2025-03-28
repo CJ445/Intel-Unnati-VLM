@@ -8,6 +8,8 @@ docker run -p 8501:8501 leahtara/visual-search-vlm:dev
 ```
 Open this link in your browser: http://localhost:8501
 
+##(or)
+
 ## Setup locally
 
 ```bash
@@ -32,15 +34,6 @@ python chroma_indexer.py
 ```bash
 streamlit run app.py
 ```
-
-
-## Demo
-### Text search (returns top matches)
-![image](https://github.com/user-attachments/assets/afd9ed61-e84b-42c4-abcb-c7dd83785ab2)
-### Image search (use sample image)
-![image](https://github.com/user-attachments/assets/2743c078-eccf-467b-85af-f28f7cad2c8b)
-
-
 ## To build the docker image yourself
  After setting up locally,
 ```bash
@@ -50,6 +43,13 @@ docker build -t visual-search-image .
 ```bash
 docker run -p 8501:8501 visual-search-image
 ```
+
+## Demo
+### Text search (returns top matches)
+![image](https://github.com/user-attachments/assets/afd9ed61-e84b-42c4-abcb-c7dd83785ab2)
+### Image search (use sample image)
+![image](https://github.com/user-attachments/assets/2743c078-eccf-467b-85af-f28f7cad2c8b)
+
 
 ## File Structure
 ```bash
