@@ -46,8 +46,7 @@ docker build -t visual-search-image .
 ```
 
 ```bash
- docker run -p 8501:8501 visual-search-image
-
+docker run -p 8501:8501 visual-search-image
 ```
 
 ## File Structure
