@@ -19,7 +19,7 @@ RUN pip install --no-cache-dir -i https://pypi.org/simple -r requirements.txt
 RUN pip install streamlit
 
 # Run Python scripts during the build process
-RUN python extract_data.py
+RUN python download_data.py
 RUN python chroma_indexer.py
 
 # Expose port 8501 for Streamlit
