@@ -40,7 +40,7 @@ streamlit run app.py
 
 
 ## To build the docker image yourself
-
+ After setting up locally,
 ```bash
 docker build -t visual-search-image .
 ```
