@@ -32,11 +32,12 @@ python chroma_indexer.py
 streamlit run app.py
 ```
 
+
 ## Demo
 ### Text search (returns top matches)
-[Insert sample output here]
+![image](https://github.com/user-attachments/assets/8b02e5a8-4635-4b71-94aa-8110668706c2)
 ### Image search (use sample image)
-[Insert sample output here]
+![image](https://github.com/user-attachments/assets/2743c078-eccf-467b-85af-f28f7cad2c8b)
 
 
 ## To build the docker image yourself
