@@ -1,4 +1,5 @@
 # Visual Search using VLM
+This project builds a vector database of tags for 5,000 images and allows users to search the database by input. It then displays the images that are most similar based on the tags.
 
 ## Run the prebuilt docker image
 
