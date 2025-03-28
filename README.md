@@ -5,7 +5,7 @@
 ```bash 
 docker run -p 8501:8501 leahtara/visual-search-vlm:dev
 ```
-Open this link in your browser to use the app: http://localhost:8501
+Open this link in your browser: http://localhost:8501
 
 ## Setup locally
 
