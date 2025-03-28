@@ -43,6 +43,17 @@ streamlit run app.py
 [Insert sample output here]
 ## File Structure
 
+## To build the docker image yourself
+
+```bash
+docker build -t visual-search-image .
+```
+
+```bash
+ docker run -p 8501:8501 visual-search-image
+
+```
+
 ```bash
 ├── chroma_db (This Directory will be created after running chroma_indexer.py)
 │   ├── 6a958e2e-303c-4002-a5ba-902ce658afe9
